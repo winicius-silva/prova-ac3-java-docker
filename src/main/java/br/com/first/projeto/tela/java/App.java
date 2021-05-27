@@ -26,7 +26,7 @@ public class App {
                 String today = formatador.format(data);
 
                 System.out.println("\n---------------------");
-                System.out.println("Hora de inserir dados");
+                System.out.println("Vamos Inserir esses dados");
                 System.out.println("Memoria Ram em uso: 50.00");
                 System.out.println("Temperatura: " + mon.getTemperatura());
                 System.out.println("Quantidade de processos: " + mon.getQtdProcessos().toString());
@@ -41,7 +41,7 @@ public class App {
                 System.out.println("..");
                 System.out.println(".");
                 
-                System.out.println("Os dados foram inseridos com sucesso");
+                System.out.println("\nOs dados foram inseridos com sucesso!");
             }
         }, delay, interval);
     }
